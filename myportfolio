@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c0c0c0e2;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        header {
+            background-color: #aba8a8cd;
+            color: #000000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 36px;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3, h4 {
+            font-family: 'Times New Roman', Times, serif;
+            color: #555;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        ul {
+            color: #555 ;
+            font-family: 'Times New Roman', Times, serif;
+            list-style-type: circle;
+            padding-left: 20px; /* Adjust the indentation */
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+
+        .skill p {
+            margin: 0;
+        }
+
+        .skill-bar {
+            background-color: #f0f0f0;
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            background-color: #4CAF50;
+            height: 100%;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfolio</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h3>About Me</h3>
+                <p>I am Sneha Paul, a first-year Computer Science student passionate about Web and App Development. Even though my journey has just begun, I can assure you that I will perceive the path with full passion and dedication and will pave my way through all the challenges I face on the path. 
+                    I am eager to specialize in Frontend Development, creating user-friendly interfaces that enhance user experience. Currently, I have knowledge in Python, C and C++, and I am eager to expand my knowledge in HTML, CSS, and JavaScript and master these skills using frameworks like React and Angular. 
+                    With the help of opportunities provided at ISTE, I am confident that I can achieve my goals and triumph over any obstacles that come my way, ultimately contributing to the success of any project.</p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h3>Education</h3>
+                <p><b>Vellore Institute of Technology, Vellore</b><br>Bachelor of Science in Computer Science (2023-Current)</p>
+                <ul>
+                    <li>Participated in 24 hours Code-a-thon, solving everyday problems using C language</li>
+                    <li>Participated in “Code-a-thon for Python”, enhancing problem optimization using ‘NumPy library’ in Python</li>
+                    <li>Attended Hands-on Online Workshop on Machine Learning and Data Analytics using Python</li>
+                    <li>Participated in Pulse Sync conducted during graVITas’23</li>
+                </ul>
+                <br>
+                <p><b>South Point School, Guwahati</b><br>Class 11 & 12 (2021-2023)</p>
+                <br>
+                <p><b>Kendriya Vidyalaya IOC Noonmati, Guwahati</b><br>Class 1 - 10 (2011-2021)
+                    <ul>
+                        <li>Participated in International Mathematics Olympiad conducted by SOF </li>
+                        <li>Participated in National Science Olympiad conducted by SOF</li>
+                    </ul></p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h3>Skills</h3>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>C++</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>C</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">85%</div>
+                    </div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:sneha.paul2023@vitstudent.ac.in">sneha.paul2023@vitstudent.ac.in</a></p>
+                <p>Phone: 8638236626</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
